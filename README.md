@@ -91,16 +91,3 @@ query filtering
 
 ---
 
-# Now do these commands (checkpoint)
-
-```powershell
-dotnet build
-dotnet test
-dotnet run --project src\Api
-
-
-Then check in Swagger:
-
-/api/aggregation?q=dotnet → GitHub URLs/timestamps present + Wikipedia not 403
-
-/api/stats still works
